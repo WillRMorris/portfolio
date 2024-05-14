@@ -1,0 +1,59 @@
+
+.projects-header{
+    text-align: center;
+    border-bottom: 0.25em double #816E94;
+    font-weight: 600;
+}
+
+.p-card {
+    flex: 0 0 1;
+position: relative;
+min-height: 30em;
+text-align: center;
+background-position: center;
+background-size: cover;
+}
+
+.p-card-header{
+    position: absolute;
+    z-index: 3;
+    bottom: 0%;
+    left: 0%;
+    text-align: center;
+    margin: 0;
+    background-color: #816E94;
+}
+
+.p-card-link{
+    position: absolute;
+    z-index: 2;
+    background: rgba(96, 96, 107, 0.3);
+    transition: all .3s linear;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.p-card-link:hover{
+    background: none;
+}
+
+.project-header{
+    text-align: center;
+}
+
+.w-card-header{
+    width: 100%;
+    margin: auto;
+    background-color: #816E94;
+    color: black;
+}
+
+.w-card-head-wrapper{
+    width: auto;
+}
+
+.w-card{
+    color: #F7F0F0;
+    background-color: #121619;
+}

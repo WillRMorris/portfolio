@@ -1,0 +1,78 @@
+[
+    {
+        "name" : "Tic Tac Too Games",
+        "id": "0",
+        "source" : "../../src/assets/images/tic-tac-too-screenshot.png",
+        "alt" : "A screen shot of the live tic-tac-too site. last updated 5/11/24",
+        "description" : {
+            "header": {
+                "style": "",
+                "content": "Descrition",
+                "direction" : "hang-left"
+            },
+            "body": {
+                "style": "",
+                "content": ""
+            }
+        },
+        "motives" : {
+            "header": {
+                "style": "",
+                "content": "Motives and Technologies",
+                "direction": "hang-right"
+            },
+            "body": {
+                "style": "",
+                "content": "I like big butts and I cannot lie"
+            }
+        },
+        "future" : {
+            "header": {
+                "style": "",
+                "content": "Future Development"
+            },
+            "body": {
+                "style": "",
+                "content": ""
+            }
+        }
+
+    },
+    {
+        "name" : "x",
+        "id": "1",
+        "source" : "x",
+        "alt" : "x",
+        "description" : {
+            "header": {
+                "style": "",
+                "content": "Descrition"
+            },
+            "body": {
+                "style": "",
+                "content": ""
+            }
+        },
+        "motives" : {
+            "header": {
+                "style": "",
+                "content": "Motives and Technologies"
+            },
+            "body": {
+                "style": "",
+                "content": ""
+            }
+        },
+        "future" : {
+            "header": {
+                "style": "",
+                "content": "Future Development"
+            },
+            "body": {
+                "style": "",
+                "content": ""
+            }
+        }
+
+    }
+]

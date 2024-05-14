@@ -1,0 +1,28 @@
+.root{
+    --white: #F7F0F0;
+    --black: #121619;
+    --blue: #58A4B0;
+    --purple: #816E94;
+}
+body {
+    background-color: #121619;
+    color:#F7F0F0 ;
+}
+
+.w-tab a{
+    color: black;
+    font-size: 1.2em;
+}
+
+.w-navbar{
+    justify-content: center;
+    background-color: #58A4B0;
+}
+
+.w-logo{
+    background-color: #58A4B0;
+    font-size: 2em;
+    position: sticky;
+    left: 0;
+    top: 0;
+}

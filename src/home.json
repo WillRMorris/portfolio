@@ -1,0 +1,37 @@
+[
+{
+    "welcome" : {
+        "header": {
+            "style": "",
+            "content": "Descrition",
+            "direction" : "hang-left"
+        },
+        "body": {
+            "style": "",
+            "content": "to be or not"
+        }
+    },
+    "ttt" : {
+        "header": {
+            "style": "",
+            "content": "Motives and Technologies",
+            "direction": "hang-right"
+        },
+        "body": {
+            "style": "",
+            "content": "I like big butts and I cannot lie"
+        }
+    },
+    "future" : {
+        "header": {
+            "style": "",
+            "content": "Future Development"
+        },
+        "body": {
+            "style": "",
+            "content": ""
+        }
+    }
+}
+
+]
