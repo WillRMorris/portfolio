@@ -8,10 +8,13 @@ import ImageCycle from "../components/imageCycle";
 export default function Home() {
   const {welcome, motives, future} = home[0];
   return (
-    <div className={`container`}>
+    <div className={`m-0`}>
       <ImageCycle/>
-            <section className={`project-info row container`}>
+            <section className={`home row g-0`}>
                 {/* welcome */}
+                <Card header = {welcome.header} body = {welcome.body}/>
+                <Card header = {welcome.header} body = {welcome.body}/>
+                <Card header = {welcome.header} body = {welcome.body}/>
                 <Card header = {welcome.header} body = {welcome.body}/>
             </section>
     </div>

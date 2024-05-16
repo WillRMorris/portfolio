@@ -1,9 +1,14 @@
 [
     {
-        "images": [
-            "../../src/assets/images/coastline-background.jpg",
-            "../../src/assets/images/city-background.jpg",
-            "../../src/assets/images/beach-background.jpg"
-        ]
+        "url": "/images/coastline-background.jpg",
+        "id": 0
+    },
+    {
+        "url": "/images/city-background.jpg",
+        "id": 1
+    },
+    {
+        "url": "/images/beach-background.jpg",
+        "id": 2
     }
 ]

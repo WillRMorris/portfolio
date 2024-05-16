@@ -1,0 +1,123 @@
+@keyframes imgPanIn {
+    0% {
+        opacity: 10%;
+        background-position: bottom 25% left 25%;
+    }
+
+    20% {
+        opacity: 20%;
+        background-position: bottom 25.25% left 25.25%;
+    }
+
+    40% {
+        opacity: 40%;
+        background-position: bottom 25.5% left 25.5%;
+    }
+
+    60% {
+        opacity: 60%;
+        background-position: bottom 25.75% left 25.75%;
+    }
+
+    80% {
+        opacity: 80%;
+        background-position: bottom 26% left 26%;
+    }
+
+    100% {
+        opacity: 100%;
+        background-position: bottom 26.25% left 26.25%;
+    }
+
+   
+}
+@keyframes imgPanOut {
+    0% {
+        opacity: 100%;
+        background-position: bottom 26.5% left 26.5%;
+    }
+
+    20% {
+        opacity: 80%;
+        background-position: bottom 26.75% left 26.75%;
+    }
+
+    40% {
+        opacity: 60%;
+        background-position: bottom 27% left 27%;
+    }
+
+    60% {
+        opacity: 40%;
+        background-position: bottom 27.25% left 27.25%;
+    }
+
+    80% {
+        opacity: 20%;
+        background-position: bottom 27.5% left 27.5%;
+    }
+    100% {
+        opacity: 0%;
+        background-position: bottom 27.75% left 27.75%;
+    }
+}
+
+.home-header {
+    position: relative;
+    text-align: center;
+    background-position: center;
+    min-height: 50em;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* background-color:; */
+}
+
+.welcome {
+    font-weight: 700;
+    font-size: 5em;
+    z-index: 10;
+    opacity: 100% !important;
+}
+
+.home-header::after {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(124, 121, 121, 0.158);
+    z-index: 5;
+}
+
+.img-default {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0%;
+    background-position: left 0 bottom 0;
+    background-size: cover;
+}
+
+.img-active {
+    background-position: left 0 bottom 0;
+    animation-name: imgPanIn;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.img-passive {
+    background-position: left 0 bottom 0;
+    animation-name: imgPanOut;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}

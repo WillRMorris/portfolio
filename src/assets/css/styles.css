@@ -4,6 +4,24 @@
     --blue: #58A4B0;
     --purple: #816E94;
 }
+
+.purple{
+    color: #816E94;
+}
+
+.blue{
+    color: #58A4B0;
+}
+
+.black{
+    color: #121619;
+}
+.white{
+    color:#F7F0F0;
+}
+
+
+
 body {
     background-color: #121619;
     color:#F7F0F0 ;
@@ -26,3 +44,8 @@ body {
     left: 0;
     top: 0;
 }
+
+.home{
+    box-shadow: top 1em black;
+}
+

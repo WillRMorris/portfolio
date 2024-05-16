@@ -14,7 +14,7 @@ function Card({ header, body, image, sidebox }) {
             ) : (
                 '')
             }
-            <div className={`w-card card col-6 g-0 shadow`}>
+            <div className={`w-card card g-0 shadow ${header.direction == 'full' ? 'col-12' :'col-6' }`}>
                 <h4 className={`w-card-header card-header ${header.style ?? ''}`}> {header.content}</h4>
         
                 {image ? (
