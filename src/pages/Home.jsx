@@ -6,16 +6,20 @@ import ImageCycle from "../components/imageCycle";
 
 
 export default function Home() {
-  const {welcome, motives, future} = home[0];
+  const {welcome, CSHistory, Writing, aboutMe} = home[0];
   return (
     <div className={`m-0`}>
       <ImageCycle/>
-            <section className={`home row g-0`}>
+            <section className={`home row g-0 justify-content-around`}>
                 {/* welcome */}
-                <Card header = {welcome.header} body = {welcome.body}/>
-                <Card header = {welcome.header} body = {welcome.body}/>
-                <Card header = {welcome.header} body = {welcome.body}/>
-                <Card header = {welcome.header} body = {welcome.body}/>
+                <Card header = {welcome.header} body = {welcome.body}>
+                  <div>
+                    </div> 
+                </Card>
+                <Card header = {aboutMe.header} body = {aboutMe.body}/>
+                <Card header = {CSHistory.header} body = {CSHistory.body}/>
+                <Card header = {Writing.header} body = {Writing.body}/>
+
             </section>
     </div>
   );

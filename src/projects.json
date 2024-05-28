@@ -4,15 +4,16 @@
         "id": "0",
         "source" : "/images/tic-tac-too-screenshot.png",
         "alt" : "A screen shot of the live tic-tac-too site. last updated 5/11/24",
+        "link": "https://tic-tac-too-3d5e87deda0c.herokuapp.com/",
         "description" : {
             "header": {
                 "style": "",
-                "content": "Descrition",
+                "content": "Description",
                 "direction" : "hang-left"
             },
             "body": {
                 "style": "",
-                "content": ""
+                "content": "This site was made as platform for games. We started with tic-tac-toe, due to time restraints, but planned to evolve it further down the road. It features a databse for tracking users, frirendships, and wins and losses using a RESTful API. The gameplay itself is between two different people on different computers. the server is set up so several games can be going simultaniously. Want to know more? Click on the preview to go to live site!"
             }
         },
         "motives" : {
@@ -23,7 +24,7 @@
             },
             "body": {
                 "style": "",
-                "content": "I like big butts and I cannot lie"
+                "content": " Tic-tac-too was made using Handlebars, node, express, and a SQL server as well as Sequilize for an ORM. We used ws websockets to impliment play between two clients as well, which proved an interesting challenge. I take particular pride in the friend relations, as it proved more difficult to set up well in a sequel database. In the end we went with probably one of the more complicated ways to do it, using a self to many self relationship. The work with the friendships was my main focus on this project and ended up being my primary contribution."
             }
         },
         "future" : {
@@ -33,7 +34,7 @@
             },
             "body": {
                 "style": "",
-                "content": ""
+                "content": "Furute Development for this project would include widening the database to handle more user data, as well as adding more games. Battleship and Chess are two we are working on, also using the websocket technology."
             }
         }
 

@@ -40,6 +40,12 @@ background-size: cover;
 
 .project-header{
     text-align: center;
+    border-bottom: 0.25em double #816E94;
+
+}
+
+.project-single-image{
+    max-width: 100%;
 }
 
 .w-card-header{
@@ -55,5 +61,19 @@ background-size: cover;
 
 .w-card{
     color: #F7F0F0;
-    background-color: #121619;
+    background-color: #333;
+}
+
+.w-card-body{
+    font-size: 1.25em;
+}
+
+/* skills */
+.skill-card{
+    text-align: center;
+}
+.skills{
+    border-right: 0.25em solid #58A4B0 ;
+    border-left: 0.25em solid #58A4B0 ;
+
 }

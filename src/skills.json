@@ -1,0 +1,40 @@
+[
+    {
+        "skill": "Javascript",
+        "level": 5,
+        "id": 0
+    },
+    {
+        "skill": "React",
+        "level": 4,
+
+        "id": 1
+    },    
+    {
+        "skill": "Node",
+        "level": 4,
+        "id": 2
+    },   
+    {
+        "skill": "Express",
+        "level": 4,
+
+        "id": 3
+    },    
+    {
+        "skill": "SQL",
+        "level": 2,
+
+        "id": 4
+    },    
+    {
+        "skill": "MongoDB",
+        "level": 3,
+        "id": 5
+    },
+    {
+        "skill": "And More!",
+        "level": 5,
+        "id": 6
+    }
+]

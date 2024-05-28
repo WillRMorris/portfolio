@@ -1,4 +1,3 @@
-import { useRef } from "react";
 
 function Image ({url, id, img}) {
     function findStyle(){

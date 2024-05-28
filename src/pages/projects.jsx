@@ -10,7 +10,7 @@ function Projects(props) {
     return (
         <div className={``}>
             <div className={`row g-0`}>
-            <h2 className={`projects-header mb-3 p-4 shadow`}> Projects </h2>
+            <h1 className={`project-header p-2`}> Projects </h1>
             </div>
         <div className={`m-2 justify-content-around row col align-items-center `}>
             {projects.map((project) => (

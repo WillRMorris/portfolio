@@ -9,8 +9,9 @@ function ImageCycle() {
 useEffect(()=>{
 
   setTimeout(() => {
+    //updates every 8 seconds
     progress(images, img);
-  }, 10000);
+  }, 8000);
 })
 //given an array and the count/index, progresses the index by one, or restarts the loop if the last index is reached
   const progress = (array, count) => {
@@ -23,7 +24,6 @@ useEffect(()=>{
     setimage(index);
 
   }
-  //updates every 10 seconds
   return (
     <div className="home-header g-0 row justify-content-around rounded">
 <h1 className={`text-align-center welcome`}>Welcome!</h1>

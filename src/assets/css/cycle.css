@@ -109,7 +109,7 @@
 .img-active {
     background-position: left 0 bottom 0;
     animation-name: imgPanIn;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
 }
@@ -117,7 +117,7 @@
 .img-passive {
     background-position: left 0 bottom 0;
     animation-name: imgPanOut;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
 }

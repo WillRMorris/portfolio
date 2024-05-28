@@ -22,25 +22,7 @@ function NavTabs() {
             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
           >
-            About Me
-          </Link>
-        </li>
-        <li className="nav-item w-tab p-3">
-          <Link
-            to="/Blog"
-            // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === '/Blog' ? 'nav-link active' : 'nav-link'}
-          >
-            Blog
-          </Link>
-        </li>
-        <li className="nav-item w-tab p-3">
-          <Link
-            to="/Contact"
-            // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-          >
-            Contact
+            Skills
           </Link>
         </li>
         <li className="nav-item w-tab p-3">
@@ -52,6 +34,16 @@ function NavTabs() {
             Projects
           </Link>
         </li>
+        <li className="nav-item w-tab p-3">
+          <Link
+            to="/Contact"
+            // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+          >
+            Contact
+          </Link>
+        </li>
+
       </ul>
   );
 }

@@ -23,14 +23,16 @@ function ProjectSingle(props) {
     
     return (
         
-        <div className={`container single-page`}>
+        <div className={`single-page`}>
             <div className={`row`}>
             <h2 className={`project-header mb-2 mt-2 p-4`}> {project.name} </h2>
             </div>
+            <div className={`container`}>
+
             <div className={`img-wrapper row`}>
                 <img src={project.source} alt={project.alt} className={`project-single-image`}  />
             </div>
-            <section className={`project-info row container`}>
+            <section className={`project-info row`}>
                 {/* description */}
                 <Card header = {description.header} body = {description.body}/>
                 {/* Motives and technologies */}
@@ -38,6 +40,7 @@ function ProjectSingle(props) {
                 {/* future development */}
                 <Card header = {future.header} body = {future.body}/>
             </section>
+            </div>
         </div>
     )
 }

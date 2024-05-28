@@ -3,35 +3,46 @@
     "welcome" : {
         "header": {
             "style": "",
-            "content": "Descrition",
-            "direction" : "center"
+            "content": "Welcome!",
+            "direction" : "hang-left"
         },
         "body": {
             "style": "",
-            "content": "to be or not"
+            "content": "Welcome to the Portfolio site of one William Morris! here you will find everything you need to know about me and my expirience as a programmer. For more information about my life, you're in the right place. For a more practical list of skills and expirience check the skills page. For information and links to the best of my work, check the projects section."
         }
     },
-    "ttt" : {
+    "aboutMe" : {
         "header": {
             "style": "",
-            "content": "Motives and Technologies",
-            "direction": "hang-right"
+            "content": "Some Background",
+            "direction" : "hang-right"
         },
         "body": {
             "style": "",
-            "content": "I like big butts and I cannot lie"
+            "content": "Hi, you can call me Will. William has never felt quite right to me. I was born in Salt Lake City, Utah, but spent most of my childhood in the suburbs of Washington DC, in the Fairfax/Oakton area. I graduated for highschool there in 2021, and then moved back out to Utah to start school at the Univeristy of Utah. Traditional schooling didn't go quite as planned, several outside events leaving me mentally unwell for a time. After roughly a year getting back on my feet, I started school back up again, but something just never felt right. Then I found U of U coding bootcamp."
         }
     },
-    "future" : {
+    "CSHistory" : {
         "header": {
             "style": "",
-            "content": "Future Development"
+            "content": "Computer Science",
+            "direction" : "hang-left"
         },
         "body": {
             "style": "",
-            "content": ""
+            "content": "I have always had an interest in all things engineering. My curiosity towards CS in particular began as early as elemntary school in a robotics club. From there, digital literacy classes in middle school, and game programming in my first two years of high school. All of these classes, admittedly, frustrated me, because they always seemed to simply skim the surface. The last two years of highschool I spent in a CS class, and an AP CS class, which were slightly more helpful, but still surface level at best. Most of my relevant skills come from the full-stack web development bootcamp at the U of U."
+        }
+    },
+    "Writing" : {
+        "header": {
+            "style": "",
+            "content": "An Aspiring Author",
+            "direction" : "hang-right"
+        },
+        "body": {
+            "style": "",
+            "content": "Programming is hardly my only ambition. I have many hobbies, the most prominent of which has been my attempts at Writing. I started writing (with the intent to publish, I should say, as I have been writing for one purpose or another for most of my life) when I was around 16 years old. My focus has always been on my favorite genres of Fantasy and Science Fiction. I haven't yet published any of my work, though I do have two novels written, that I'm just not quite satisfied yet. So I work on them, and on writing more, in my spare time with a hope of one day being published."
         }
     }
 }
-
 ]
