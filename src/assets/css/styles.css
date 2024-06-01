@@ -3,7 +3,7 @@
     --black: #121619;
     --blue: #58A4B0;
     --purple: #816E94;
-    --darkBlue: #14213D;
+    --darkBlue: #2d3e50;
 }
 
 .purple{
@@ -20,6 +20,9 @@
 .white{
     color:#F7F0F0;
 }
+.dark-blue{
+    color: #2d3e50;
+}
 
 
 
@@ -29,24 +32,34 @@ body {
 }
 
 .w-tab a{
-    color: black;
+    color: #F7F0F0 ;
     font-size: 1.2em;
+    font-weight: 600;
 }
 
 .w-navbar{
-    justify-content: center;
-    background-color: #58A4B0;
+    /* justify-content: center; */
+    background-color: #2d3e50;
 }
 
 .w-logo{
-    background-color: #58A4B0;
     font-size: 2em;
+}
+.nav-wrapper{
     position: sticky;
-    left: 0;
-    top: 0;
+    z-index: 1000;
 }
 
 .home{
     box-shadow: top 1em black;
+}
+
+.cover-link{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 

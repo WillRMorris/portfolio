@@ -1,0 +1,19 @@
+
+.contacts-header{
+    text-align: center;
+    max-height: 2em;
+}
+.b-r{
+    border-right: 0.1em solid #2d3e50;
+}
+.b-l{
+    border-left: 0.1em solid #2d3e50;
+}
+
+.h-full{
+    min-height: 100%;
+}
+
+.contact{
+    max-height: 3.6em;
+}

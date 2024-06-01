@@ -28,7 +28,6 @@ background-size: cover;
     position: absolute;
     z-index: 2;
     background: rgba(96, 96, 107, 0.3);
-    transition: all .3s linear;
     top: 0;
     bottom: 0;
     left: 0;
@@ -71,9 +70,10 @@ background-size: cover;
 /* skills */
 .skill-card{
     text-align: center;
+    position: relative;
 }
 .skills{
-    border-right: 0.25em solid #58A4B0 ;
-    border-left: 0.25em solid #58A4B0 ;
+    border-right: 0.25em solid #2d3e50 ;
+    border-left: 0.25em solid #2d3e50 ;
 
 }

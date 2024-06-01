@@ -8,7 +8,7 @@ import '../assets/css/projects.css'
 function Projects(props) {
 
     return (
-        <div className={``}>
+        <div className={`container-fluid`}>
             <div className={`row g-0`}>
             <h1 className={`project-header p-2`}> Projects </h1>
             </div>

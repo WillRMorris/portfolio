@@ -5,7 +5,7 @@ import list from '../skills.json'
 export default function About() {
   console.log(list)
   return (
-    <div className="">
+    <div className="container-fluid">
       <h1 className={`projects-header p-2`}>Skills</h1>
       <div className={`row`}>
       <div className="col-2"></div>

@@ -8,7 +8,7 @@ import ImageCycle from "../components/imageCycle";
 export default function Home() {
   const {welcome, CSHistory, Writing, aboutMe} = home[0];
   return (
-    <div className={`m-0`}>
+    <div className={`m-0 container-fluid`}>
       <ImageCycle/>
             <section className={`home row g-0 justify-content-around`}>
                 {/* welcome */}

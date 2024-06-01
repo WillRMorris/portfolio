@@ -23,8 +23,8 @@ function ProjectSingle(props) {
     
     return (
         
-        <div className={`single-page`}>
-            <div className={`row`}>
+        <div className={`single-page container-fluid`}>
+            <div className={`row justify-content-center g-1`}>
             <h2 className={`project-header mb-2 mt-2 p-4`}> {project.name} </h2>
             </div>
             <div className={`container`}>

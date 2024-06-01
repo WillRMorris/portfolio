@@ -9,7 +9,6 @@ import Error from './pages/Error';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import Blog from './pages/Blog';
 import Projects from './pages/projects';
 import ProjectSingle from './pages/projectSingle';
 
@@ -27,10 +26,6 @@ const router = createBrowserRouter([
       {
         path: '/About',
         element: <About />,
-      },
-      {
-        path: '/Blog',
-        element: <Blog />,
       },
       {
         path: '/Contact',
